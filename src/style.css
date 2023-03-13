@@ -1,0 +1,51 @@
+:root {
+  --neutral: #fff5d7;
+  --coral: #ff5e6c;
+  --yellow: #feb300;
+  --pink: #ffaaab;
+}
+
+.hero {
+  background: var(--neutral);
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  text-align: center;
+  padding: 160px 10px;
+  color: var(--dark);
+}
+
+.hero-button {
+  background-color: #f9ba34;
+  padding: 12px;
+  line-height: 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+  color: var(--light);
+}
+
+.hero-description {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.navbar {
+  background: var(--neutral);
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--coral);
+  font-family: "Merriweather";
+}
+
+h1,
+h2 {
+  font-family: "Merriweather";
+  font-weight: 500;
+}
+
+h3 {
+  font-family: "Lato";
+}
