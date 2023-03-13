@@ -1,8 +1,15 @@
 :root {
-  --neutral: #fff5d7;
-  --coral: #ff5e6c;
+  --neutral: #f8eddd;
+  --coral: #e8a598;
   --yellow: #feb300;
-  --pink: #ffaaab;
+  --pink: #f4ded3;
+  --matcha: #737440;
+  --light-green: #c5c79d;
+  --brown: #a17a56;
+}
+
+.about-me-title {
+  color: var(--brown);
 }
 
 .hero {
@@ -17,14 +24,34 @@
 }
 
 .hero-button {
-  background-color: #f9ba34;
+  background-color: var(--coral);
   padding: 12px;
   line-height: 30px;
   margin-top: 30px;
   border-radius: 5px;
-  color: var(--light);
+  color: var(--neutral);
 }
 
+.hero-button:hover {
+  border: 1px solid var(--coral);
+  background: var(--neutral);
+  color: var(--coral);
+  text-decoration: none;
+}
+.about-button {
+  border: 1px solid var(--matcha);
+  color: 1px solid var(--matcha);
+  text-align: center;
+  padding: 12px;
+  line-height: 30px;
+  border-radius: 5px;
+}
+
+.about-button:hover {
+  background: var(--matcha);
+  color: white;
+  text-decoration: none;
+}
 .hero-description {
   font-size: 20px;
   line-height: 2;
@@ -36,16 +63,32 @@
 
 .navbar-brand,
 .nav-link {
-  color: var(--coral);
+  color: var(--matcha);
   font-family: "Merriweather";
 }
 
+h1 {
+  font-size: 90px;
+  color: var(--matcha);
+}
 h1,
 h2 {
   font-family: "Merriweather";
   font-weight: 500;
 }
 
-h3 {
+h3,
+p {
   font-family: "Lato";
+  padding-bottom: 20px;
+}
+
+.about-image {
+  display: flex;
+}
+
+.about-blurb {
+  line-height: 1.5;
+  padding: 80px;
+  margin: 50px;
 }
