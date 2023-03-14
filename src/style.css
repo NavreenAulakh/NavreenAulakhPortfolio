@@ -1,19 +1,18 @@
 :root {
   --neutral: #f8eddd;
-  --coral: #e8a598;
-  --yellow: #feb300;
-  --pink: #f4ded3;
-  --matcha: #737440;
-  --light-green: #c5c79d;
-  --brown: #a17a56;
+  --main: #95b171;
+  --coral: #b15254;
+  --bright: #f2e291;
+  --dark: #678e7e;
+  --accent: #eba566;
 }
 
 .about-me-title {
-  color: var(--brown);
+  color: var(--accent);
 }
 
 .hero {
-  background: var(--neutral);
+  background: var(--main);
   padding: 20px;
   width: 100%;
   height: auto;
@@ -24,23 +23,23 @@
 }
 
 .hero-button {
-  background-color: var(--coral);
+  background-color: var(--bright);
   padding: 12px;
   line-height: 30px;
   margin-top: 30px;
   border-radius: 5px;
-  color: var(--neutral);
+  color: var(--dark);
 }
 
 .hero-button:hover {
-  border: 1px solid var(--coral);
-  background: var(--neutral);
-  color: var(--coral);
+  border: 1px solid var(--accent);
+  background: var(--main);
+  color: (--accent);
   text-decoration: none;
 }
 .about-button {
-  border: 1px solid var(--matcha);
-  color: 1px solid var(--matcha);
+  border: 1px solid var(--coral);
+  color: 1px solid var(--coral);
   text-align: center;
   padding: 12px;
   line-height: 30px;
@@ -48,7 +47,7 @@
 }
 
 .about-button:hover {
-  background: var(--matcha);
+  background: var(--main);
   color: white;
   text-decoration: none;
 }
@@ -58,7 +57,7 @@
 }
 
 .navbar {
-  background: var(--neutral);
+  background: var(--main);
 }
 
 .navbar-brand,
@@ -69,7 +68,7 @@
 
 h1 {
   font-size: 90px;
-  color: var(--matcha);
+  color: var(--bright);
 }
 h1,
 h2 {
@@ -91,4 +90,40 @@ p {
   line-height: 1.5;
   padding: 80px;
   margin: 50px;
+}
+
+@media (max-width: 1140px) {
+  .hero-description {
+    font-size: 12px;
+  }
+
+  .about-blurb {
+    padding-top: 25px;
+    margin: 0px;
+    text-align: center;
+  }
+  .about-image {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-image {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-description {
+    font-size: 12px;
+  }
+
+  .about-blurb {
+    padding-top: 25px;
+    margin: 0px;
+    text-align: center;
+  }
+  .about-image {
+    display: none;
+  }
 }
