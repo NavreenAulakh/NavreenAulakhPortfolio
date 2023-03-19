@@ -1,10 +1,22 @@
 :root {
   --neutral: #f8eddd;
-  --main: #95b171;
-  --coral: #b15254;
-  --bright: #f2e291;
-  --dark: #678e7e;
-  --accent: #eba566;
+  --main: #142b44;
+  --coral: #3d939d;
+  --bright: #fae7ca;
+  --dark: #3d939d;
+  --accent: #3d939d;
+}
+
+.portfolio {
+  padding: 20px;
+}
+
+.portfolio img {
+  opacity: 60%;
+}
+
+.portfolio img:hover {
+  opacity: 100%;
 }
 
 .about-me-title {
@@ -67,15 +79,17 @@
 }
 
 h1 {
-  font-size: 90px;
+  font-size: 200px;
   color: var(--bright);
+  font-weight: 600;
 }
-h1,
+
 h2 {
   font-family: "Merriweather";
   font-weight: 500;
 }
 
+h1,
 h3,
 p {
   font-family: "Lato";
@@ -110,21 +124,48 @@ p {
     max-width: 90%;
   }
 }
-.tablist {
+
+.experience-tablist {
   border: none;
+  background: white;
+  color: black;
 }
 
-.row {
-  margin-top: 50px;
-  border: red;
+.experience-tablist:hover {
+  background: var(--main);
 }
-.nav-link .active {
-  background-color: green;
+
+.nav-link.active {
 }
+
+.tab-content {
+  margin: 0px 20px;
+  max-width: 80%;
+}
+
+.portfolio-link {
+  border: 2px solid var(--main);
+  padding: 15px;
+  border-radius: 4px;
+  color: var(--dark);
+}
+
+.portfolio-link:hover {
+  background: var(--main);
+  color: white;
+  text-decoration: none;
+}
+
 @media (max-width: 800px) {
   .about-image {
     padding-top: 100px;
   }
+}
+
+#my-experience,
+#portfolio-h1 {
+  padding: 50px 0px;
+  color: black;
 }
 
 @media (max-width: 600px) {
