@@ -92,6 +92,10 @@ p {
   margin: 50px;
 }
 
+.portfolio-blurb {
+  margin-top: 5%;
+}
+
 @media (max-width: 1140px) {
   .hero-description {
     font-size: 20px;
@@ -106,7 +110,17 @@ p {
     max-width: 90%;
   }
 }
+.tablist {
+  border: none;
+}
 
+.row {
+  margin-top: 50px;
+  border: red;
+}
+.nav-link .active {
+  background-color: green;
+}
 @media (max-width: 800px) {
   .about-image {
     padding-top: 100px;

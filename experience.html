@@ -19,8 +19,13 @@
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
       crossorigin="anonymous"
     ></script>
     <script
@@ -34,30 +39,179 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">Navreen Aulakh</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">Navreen Aulakh</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <a class="nav-link" href="/experience.html">About</a>
+              <a class="nav-link" href="/portfolio.html">Work</a>
+              <a class="nav-link" href="/contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <h1>I'm Navreen</h1>
+      <h3 class="hero-description">
+        I'm a front-end developer and branding fanatic based in Brampton,
+        Ontario
+      </h3>
+
+      <div class="d-flex align-items-start">
+        <div
+          class="nav flex-column nav-pills me-3"
+          id="v-pills-tab"
+          role="tablist"
+          aria-orientation="vertical"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="/">About</a>
-            <a class="nav-link" href="/experience.html">Experience</a>
-            <a class="nav-link" href="/portfolio.html">Work</a>
-            <a class="nav-link" href="/contact.html">Contact</a>
+          <button
+            class="nav-link active tablist"
+            id="v-pills-home-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#v-pills-home"
+            type="button"
+            role="tab"
+            aria-controls="v-pills-home"
+            aria-selected="true"
+          >
+            Humble the Poet
+          </button>
+          <button
+            class="nav-link tablist"
+            id="v-pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#v-pills-profile"
+            type="button"
+            role="tab"
+            aria-controls="v-pills-profile"
+            aria-selected="false"
+          >
+            Contentware AI
+          </button>
+
+          <button
+            class="nav-link tablist"
+            id="v-pills-messages-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#v-pills-messages"
+            type="button"
+            role="tab"
+            aria-controls="v-pills-messages"
+            aria-selected="false"
+          >
+            Dialectic
+          </button>
+          <button
+            class="nav-link tablist"
+            id="v-pills-settings-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#v-pills-settings"
+            type="button"
+            role="tab"
+            aria-controls="v-pills-settings"
+            aria-selected="false"
+          >
+            iRange Toronto
+          </button>
+        </div>
+        <div class="tab-content" id="v-pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="v-pills-home"
+            role="tabpanel"
+            aria-labelledby="v-pills-home-tab"
+            tabindex="0"
+          >
+            <h4>Marketing & Social Media Manager</h4>
+            <p>
+              . Managed brand’s editorial calendar and website Implemented and
+              tracked measurement of social media strategy, which resulted in
+              gaining 700K + followers across platforms within the past 4 years
+              . Designed and wrote copy for newsletters, marketing materials and
+              social media posts . Monitored, compiled and presented analytics
+              and sales metrics, including opportunities for improvement and
+              areas of success . Aided in the development of promotional
+              strategies for multiple book releases, which assisted in three
+              best-sellers · Edited and refined website copy and SEO, leading to
+              increased sales and site visibility · Designed landing pages for 3
+              best-selling books, leading to an increase in sales . Assisted in
+              updating branding materials and messaging · Created databases for
+              social media outreach initiatives while also blueprinting and
+              composing email and text blasts, resulting in growth in sales ·
+              Worked with marketing and publicity teams from companies such as
+              Harper Collins, SAXX, Peace Collective and more to coordinate
+              projects and deadlines
+            </p>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="v-pills-profile"
+            role="tabpanel"
+            aria-labelledby="v-pills-profile-tab"
+            tabindex="0"
+          >
+            <h4>Marketing & Social Media Manager</h4>
+            <p>
+              · Developed and executed social media strategies to increase brand
+              awareness and engagement across multiple platforms including
+              Facebook, Twitter, LinkedIn, and Instagram · Created compelling
+              content such as blog posts and newsletters to drive traffic ·
+              Monitored social media channels and responded to customer
+              inquiries and comments in a timely and professional manner ·
+              Managed social media advertising campaigns to increase website
+              traffic
+            </p>
+          </div>
+
+          <div
+            class="tab-pane fade"
+            id="v-pills-messages"
+            role="tabpanel"
+            aria-labelledby="v-pills-messages-tab"
+            tabindex="0"
+          >
+            · Developed an editorial calendar and created content for the weekly
+            newsletter, company podcast, social media, blogs, ad campaigns,
+            sales decks, marketing materials and more · Developed and executed
+            marketing activities, including email campaigns and other
+            communication strategies, leading to a larger readership and
+            increased engagement · Supported inbound and outbound marketing
+            activities as needed, including content development, social media,
+            and event execution. · Presented updates and metrics on a bimonthly
+            basis · Brainstormed and developed ideas for creative marketing
+            campaigns
+          </div>
+          <div
+            class="tab-pane fade"
+            id="v-pills-settings"
+            role="tabpanel"
+            aria-labelledby="v-pills-settings-tab"
+            tabindex="0"
+          >
+            <p>
+              . Created content for marketing and promotion, social media (posts
+              and videos), and newsletters . Took high-quality portraits of
+              guests, staff, location and equipment for digital promotion .
+              Worked with marketing team on social media outreach for
+              sponsorships, brand deals, and blog features
+            </p>
           </div>
         </div>
       </div>
-    </nav>
-    <h1>My Experience</h1>
+    </div>
   </body>
 </html>
