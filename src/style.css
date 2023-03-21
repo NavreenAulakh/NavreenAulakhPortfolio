@@ -1,5 +1,5 @@
 :root {
-  --neutral: #f8eddd;
+  --neutral: #cfe2f8;
   --main: #142b44;
   --main-light: #4b5e73;
   --coral: #3d939d;
@@ -8,6 +8,28 @@
   --accent: #3d939d;
 }
 
+footer {
+  padding: 40px;
+}
+
+footer .contact-box {
+  background: var(--neutral);
+  padding: 20px;
+}
+
+footer .contact-info,
+.contact-box {
+  margin-top: 20px;
+}
+
+.footer-button {
+  background: var(--dark);
+  padding: 10px;
+  color: white;
+  display: inline;
+  width: 50%;
+  margin-top: 35%;
+}
 .portfolio {
   padding: 20px;
 }
@@ -25,7 +47,7 @@
   color: var(--accent);
 }
 
-.navbar-toggler-icon {
+.toggler-icon {
   color: white;
 }
 .hero {
@@ -68,18 +90,27 @@
   color: white;
   text-decoration: none;
 }
-.hero-description {
-  font-size: 20px;
-  line-height: 2;
-}
 
 .navbar {
   background: var(--main);
 }
 
+.content {
+  line-height: 1;
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+}
+
 .navbar-brand,
 .nav-link {
   color: white;
+  font-family: "Merriweather";
+}
+
+.navbar-brand,
+.nav-link:hover {
+  color: var(--neutral);
   font-family: "Merriweather";
 }
 
@@ -177,6 +208,22 @@ p {
   font-size: 80px;
 }
 
+@media (max-width: 800px) {
+  .portfolio-container {
+    text-align: center;
+  }
+  .portfolio-image {
+    margin-top: 30px;
+  }
+  .portfolio-link {
+    margin: 50px;
+  }
+  footer .footer-button {
+    font-size: 15px;
+    float: left;
+    display: inline-block;
+  }
+}
 @media (max-width: 600px) {
   .hero-description {
     font-size: 12px;
@@ -189,5 +236,18 @@ p {
   }
   .about-image {
     display: none;
+  }
+  .portfolio-container {
+    text-align: center;
+  }
+  .portfolio-image {
+    margin-top: 30px;
+  }
+  .portfolio-link {
+    margin: 50px;
+  }
+  footer .footer-button {
+    font-size: 12px;
+    float: left;
   }
 }
