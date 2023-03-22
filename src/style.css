@@ -15,11 +15,24 @@ footer {
 footer .contact-box {
   background: var(--neutral);
   padding: 20px;
+  text-align: center;
 }
 
+footer p {
+  padding: 10px 0px 0px 0px;
+  text-align: center;
+}
 footer .contact-info,
 .contact-box {
   margin-top: 20px;
+}
+
+p {
+  opacity: 90%;
+}
+
+img .headshot {
+  margin: 20px 0px;
 }
 
 .footer-button {
@@ -27,7 +40,6 @@ footer .contact-info,
   padding: 10px;
   color: white;
   display: inline;
-  width: 50%;
   margin-top: 35%;
 }
 .portfolio {
@@ -37,6 +49,8 @@ footer .contact-info,
 .portfolio img {
   opacity: 60%;
   border-radius: 5px;
+  width: 20%;
+  height: auto;
 }
 
 .portfolio img:hover {
@@ -142,6 +156,10 @@ p {
   margin: 50px;
 }
 
+#background-tint {
+  background-color: var(--bright);
+  background-blend-mode: multiply;
+}
 .portfolio-blurb {
   margin-top: 5%;
 }
@@ -192,6 +210,25 @@ p {
   text-decoration: none;
 }
 
+.social-links {
+  color: var(--main);
+  font-size: 25px;
+  padding: 0px;
+  transition: 2ms ease-in-out;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.fa-brands {
+  margin: 0 15px;
+}
+.social-links:hover {
+  color: var(--accent);
+  font-size: 25px;
+  padding: 0px;
+  text-decoration: none;
+}
+
 @media (max-width: 800px) {
   .about-image {
     padding-top: 100px;
@@ -220,8 +257,8 @@ p {
   }
   footer .footer-button {
     font-size: 15px;
-    float: left;
     display: inline-block;
+    margin: 30%;
   }
 }
 @media (max-width: 600px) {
@@ -250,4 +287,8 @@ p {
     font-size: 12px;
     float: left;
   }
+}
+
+.experience-about h1 {
+  color: black;
 }
