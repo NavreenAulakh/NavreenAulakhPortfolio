@@ -32,7 +32,8 @@ p {
 }
 
 img .headshot {
-  margin: 20px 0px;
+  margin: 40px;
+  max-width: 80%;
 }
 
 .footer-button {
@@ -49,7 +50,7 @@ img .headshot {
 .portfolio img {
   opacity: 60%;
   border-radius: 5px;
-  width: 20%;
+
   height: auto;
 }
 
@@ -156,12 +157,13 @@ p {
   margin: 50px;
 }
 
-#background-tint {
-  background-color: var(--bright);
-  background-blend-mode: multiply;
-}
 .portfolio-blurb {
   margin-top: 5%;
+}
+
+.experience-about {
+  margin-top: 20px;
+  text-align: center;
 }
 
 @media (max-width: 1140px) {
@@ -187,9 +189,6 @@ p {
 
 .experience-tablist:hover {
   background: var(--main);
-}
-
-.nav-link.active {
 }
 
 .tab-content {
